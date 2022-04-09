@@ -5,10 +5,6 @@ labels = {}
 # Size of neighborhood to check
 k_neighbors = 2
 
-# External and Interal corner coordinates
-E = []
-I = []
-
 # Binary Image fig. 1.3 Computer Vision - Shapiro, Stockman
 bin_img = [
     [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
