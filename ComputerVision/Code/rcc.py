@@ -21,20 +21,6 @@ bin_img = [
 MAX_ROW = len(bin_img) - 1 
 MAX_COL = len(bin_img[0]) - 1
 
-def create_adjacency_matrix(r, c):
-    """
-    Create the adjanceny matrix with coordinates as key
-    Key: Vertex, Value: Edges
-    G(V, E)
-    """
-
-    for i in range(r*c):
-        
-        row = i // c
-        col = i % c
-
-        connections[(row, col)] = []
-
 def negate(B):
     """
     Takes a binary image and returns a matrix with -1
